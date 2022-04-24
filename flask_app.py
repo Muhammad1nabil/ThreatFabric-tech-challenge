@@ -1,8 +1,8 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 import pickle
 import numpy as np
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='')
 app.config['DEBUG'] = False
 
 
@@ -33,7 +33,10 @@ def predict_user():
         return jsonify(
             msg=f'unexpected error, {e}'), 400
 
-
+@app.route('/', methods=['GET'])
+def index():
+    return render_template('index.html')
+    # return 'hello world!'
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
