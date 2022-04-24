@@ -286,9 +286,17 @@ as requested those are my deliverables
 `AWS component diagram.jpg` and you can access `http://www.nabil-tech-challenge.link` for more info
 3. this `README.md` and jupyter notebook as full-detailed step by step of how I built the model and deployed it
 
+4. also the complete last updated repo compressed
+ `nabil-submission.zip`
+
 ## Final Thoughts
+  I interacted with cloud and deployed web systems and big data systems but this is the first time I actually do it as always there's devops engineer who's responsible to do it. yes I had the knowledge -AWS cloud courses- and now I got the experience. <br>
+  for azure approach, I got stuck while deploying the project, and I prefered to focus on AWS -as I know it more and to complete two solutions out of three-. as I had to do the tech challenge while Im working a full-time job and committed to my personal life routine. I didnt have enough time to complete azure solution after I finished AWS deployement.<br><br>
 
+  I really enjoyed the process and devops work, as I finished buidling models and creating flask API in one day, and had to not work for 5 days due to personal reasons. that got me only 4 days to deploy, for me I enjoy my time working with cli/terminals, services/cron-jobs, and especially get stuck in a problem/error which is new to me. error junky I suppose xD
 
+  I wish I fulfilled your requirements and excited to talk to you!
+  
 ## Contact
 
 Muhammad Nabil - muhammad1nabil@yahoo.com
