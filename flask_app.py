@@ -31,7 +31,7 @@ def predict_user():
             msg=f'invalid data, {data}'), 400
     except Exception as e:
         return jsonify(
-            msg=f'unexpected error, {e}'), 400
+            msg=f'unexpected error, {e}'), 418
 
 @app.route('/', methods=['GET'])
 def index():

@@ -149,36 +149,34 @@ if __name__ == '__main__':
 ```
 "Model" will be the selected model name and the rest will be the 8 input features.
 
-the response if the data is valid:
+the response if the data is valid, status code 200:
 ``` json
-status code 200
 {
-  "user": {userID}
+  "user": "{userID:int}"
 }
 ```
 
-the response if "Model" is invalid:
+the response if "Model" is invalid, 
+status code 400:
 
 ``` json
-status code 400
 {
-  "msg": 'invalid model, {request "Model" value}'
+  "msg": "invalid model, {request 'Model' value}"
 }
 ```
-the response if any value is invalid:
+the response if any value is invalid, status code 400:
 
 ``` json
-status code 400
 {
-  "msg": 'invalid data, {request data}'
+  "msg": "invalid data, {request data}"
 }
 ```
-the response if unexpected error occur:
+the response if unexpected error occur, status code 418:
 
 ``` json
-status code 400
+
 {
-  "msg": 'unexpected error, {exception msg}'
+  "msg": "unexpected error, {exception msg}"
 }
 ```
 
@@ -296,7 +294,7 @@ as requested those are my deliverables
   I really enjoyed the process and devops work, as I finished buidling models and creating flask API in one day, and had to not work for 5 days due to personal reasons. that got me only 4 days to deploy, for me I enjoy my time working with cli/terminals, services/cron-jobs, and especially get stuck in a problem/error which is new to me. error junky I suppose xD
 
   I wish I fulfilled your requirements and excited to talk to you!
-  
+
 ## Contact
 
 Muhammad Nabil - muhammad1nabil@yahoo.com
